@@ -18,7 +18,7 @@
 .girl-music {
   width: 300px;
   height: 300px;
-  background: blue;
+  margin-right: 40x;
   animation-name: ride;
   animation-duration: 10s;
   animation-delay: 0.2s;
@@ -57,9 +57,11 @@
   color: antiquewhite;
   transform: rotate(360deg);
 }
+h1 {
+  text-align: center;
+}
 .sky {
-  background: blue;
-  opacity: 0.6;
+  background: #2e2e49;
   padding: 50px;
   transition: 2s ease-in-out;
 }
@@ -78,7 +80,9 @@
 }
 
 .grass {
-  background: green;
+  background: black;
+  display: flex;
+  justify-content: space-between;
   padding: 30px;
 }
 .road {
